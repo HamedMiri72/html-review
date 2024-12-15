@@ -11,92 +11,127 @@
     </head>
 
     <body>
-        <h1>My gols for the year</h1>
-        <hr>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#html">learn html for this link</a>
-                    </li>
+        <header>
 
-                    <li>
-                        <a href="#vacation">Planing a vacation</a>
-                    </li>
-                </ul>
-            </nav>
-        <hr>
-        <section id="html">
-            <h2>I'm ready to learn HTML</h2>
-            <p>This is my first page.</p>
-            <img src="./img/image1.jpg" alt="HTML5 lOGO" title="I am learning html5" width="300" height="300">
-            <h3>My daily schedule</h3>
-            <p>Let me tell you how</p>
-                <ol>
-                    <li>... I learn more about web dev.</li>
-                    <li>... I pla out my Schedule.</li>
-                    <li>... I use resources from <abbr title="Mozzila Developer Network">
-                        <a href="https://developer.mozilla.org/">MDN</a>
-                    </abbr>.</li>
-                
-                </ol>
-        </section>
+            <h1>My gols for the year</h1>
+                <nav aria-label="primary-navigation">
+                    <ul>
+                        <li>
+                            <a href="#html">learn html for this link</a>
+                        </li>
 
-        <hr>
+                        <li>
+                            <a href="#vacation">Planing a vacation</a>
+                        </li>
+                    </ul>
+                </nav>
+
+        </header>
+
+        
+        <main>
+
+            <article id="html">
+                <h2>I'm ready to learn HTML</h2>
+                <p>This is my first page.</p>
+
+                <section>
+                    <h3>HTML5</h3>
+                    <figure>
+                        <img src="./img/image1.jpg" alt="HTML5 lOGO" title="I am learning html5" width="300" height="300">
+                        <FIGCaption>My best location forever</FIGCaption>
+                    </figure>
+                </section>
+
+                <section>
+                    <h3>My daily schedule</h3>
+                    <p>Let me tell you how</p>
+                    <ol>
+                        <li>... I learn more about web dev.</li>
+                        <li>... I pla out my Schedule.</li>
+                        <li>... I use resources from <abbr title="Mozzila Developer Network">
+                            <a href="https://developer.mozilla.org/">MDN</a>
+                        </abbr>.</li>
+                    
+                    </ol>
+                    <aside>
+                        <details>
+                            <summary>
+                                Gusee the <mark>number of hours </mark>i code per day
+                            </summary>
+                            <p>
+                                i start at <time datetime="08:00">8 pm</time> and i write code for <time datetime="PT3H">3 hours
+                                </p></time>
+                        </details>
+                    </aside>
+                </section>
+
+            </article>
 
     
-        <section id="vacation">
-            <h2>I'm also plaing a vacation</h2>
-            <p>I've been working very hard and <em>i really need a getaway.</em> </p>
-            <p>I live in glasgow and i really want to see green park.</p>
-            
-            <h3>Places i like to visit</h3>
-            <ul>
-                <li>
-                    <p>I've heard good things about this area</p>
-                    <figure>
-                        <img src="./img/image2.jpg" alt="any picture here" title="im just put somthing here its unrelevent" width="300" height="300" loading="lazy">
-                        <figcaption>Edinbrough</figcaption>
-                    </figure>
-                    
-                </li>
-                <li>
-                    <p>I've heard good things about going here:</p>
-                    <address>
-                        United Kingdom<br>
-                        glasgow<br>
-                        CRAIGPRKDRIVE, 1/2, 151
-                    </address>
-                    <figure>
-                        <img src="img/image3.jpg" alt="vacation image" title="just my favorite place" width="300" height="300" loading="lazy">
-                        <figcaption>my peasful place around</figcaption>
-                        <p>
-                            <code>&lt;h1&gt;hello world@lt;&lt;/h1&gt;</code>
-                        </p>
-                    </figure>
-                   
-                    
-                </li>
-            </ul>
-            <!--TODO: Add more places-->
-            <h3>Places i want to avoid</h3>
-            <p>Any where cold, <strong>No way!</strong></p>
-            <dl>
-                <dt>North pole</dt>
-                <dd>I hear this is <strong>Cold</strong>!</dd>
-                <dt>North pole</dt>
-                <dd>I hear this is <strong>Cold</strong>!</dd>
-                <dt>North pole</dt>
-                <dd>I hear this is <strong>Cold</strong>!</dd>
-            </dl>
-        </section>
+            <article id="vacation">
+                <h2>I'm also plaing a vacation</h2>
+                <p>I've been working very hard and <em>i really need a getaway.</em> </p>
+                <p>I live in glasgow and i really want to see green park.</p>
+
+                <section>
                 
+                <h3>Places i like to visit</h3>
+                    <ul>
+                        <li>
+                            <p>I've heard good things about this area</p>
+                            <figure>
+                                <img src="./img/image2.jpg" alt="any picture here" title="im just put somthing here its unrelevent" width="300" height="300" loading="lazy">
+                                <figcaption>Edinbrough</figcaption>
+                            </figure>
+                            
+                        </li>
+                        <li>
+                            <p>I've heard good things about going here:</p>
+                            <address>
+                                United Kingdom<br>
+                                glasgow<br>
+                                CRAIGPRKDRIVE, 1/2, 151
+                            </address>
+                            <figure>
+                                <img src="img/image3.jpg" alt="vacation image" title="just my favorite place" width="300" height="300" loading="lazy">
+                                <figcaption>my peasful place around</figcaption>
+                                <p>
+                                    <code>&lt;h1&gt;hello world@lt;&lt;/h1&gt;</code>
+                                </p>
+                            </figure>
+                        
+                            
+                        </li>
+                    </ul>
+                </section>
+                <!--TODO: Add more places-->
+                <section>
+                    <h3>Places i want to avoid</h3>
+                    <p>Any where cold, <strong>No way!</strong></p>
+                    <dl>
+                        <dt>North pole</dt>
+                        <dd>I hear this is <strong>Cold</strong>!</dd>
+                        <dt>North pole</dt>
+                        <dd>I hear this is <strong>Cold</strong>!</dd>
+                        <dt>North pole</dt>
+                        <dd>I hear this is <strong>Cold</strong>!</dd>
+                    </dl>
+                </section>
+            </article>
+        
+        </main>
 
-        <hr>
+        <footer>
+            <p>
+                &lt;&lt;&lt; &copy; <a href="about.html">Hamed Miri</a> &gt;&gt;&gt;
+            </p>
+            
+            <p>
+                <a href="#">Bach to top</a>
+            </p>
 
-        &lt;&lt;&lt; &copy; <a href="about.html">Hamed Miri</a> &gt;&gt;&gt;
-        <p>
-            <a href="#">Bach to top</a>
-        </p>
+        </footer>
         
     </body>
 
